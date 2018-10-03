@@ -1,0 +1,40 @@
+1. system pref -> accessibility -> trackpad options -> enable dragging (three finger drag)
+2. terminal -> preferences -> profiles tab -> window tab -> window size : col=100, row=30
+3. terminal -> preferences -> profiles tab -> shell tab -> when the shell exits : close the window, ask before closing : only if there are processes other than the login shell and :
+4. automator -> new services -> services receives : no input, in : any application -> drag 'Run Shell Script' -> Shell : /bin/bash, pass input : to stdin, pmset displaysleepnow -> save name as 'Lock Screen' -> sys pref -> keyboard -> shortcuts tab -> Services -> scroll all the way down -> General > Lock Screen -> set shortcut to 'control-command-]'
+5. sys pref -> keyboard -> shortcuts tab -> mission control -> set short cut to 'control-g'
+6. terminal -> write following command -> 'defaults write -g InitialKeyRepeat 25'
+7. terminal -> write following command -> 'defaults write -g KeyRepeat 2'
+8. sys pref -> keyboard -> key repeat : off(0) slow | | | | | fast(7) -> set to fast
+9. sys pref -> keyboard -> delay until repeat : long(0)   |   |   |   |   short(5) -> set to 4
+9. get homebrew
+10. sys pref -> trackpad -> turn off 'Scroll direction: Natural'
+11. slack -> sign in to multiple workspaces to get rid of top bar / ribbon (from release note : 'If you're signed into more than one team, we've removed the titlebar from the window for a streamlined, high fashion look. We call it: Menumalist.')
+12. git -> https://help.github.com/articles/caching-your-github-password-in-git/ (setting osxkeychain as credential to cache github password)
+
+
+
+
+-apps----
+anaconda-navigator
+deezer
+docker
+firefox
+intellij idea
+kakaotalk
+mysqlworkbench
+parallels desktop
+postman
+pycharm
+rubymine
+sequel pro
+skitch
+slack
+text wrangler
+virtualbox
+vlc
+wireshark
+
+
+-tips----
+$ docker run -it ubuntu bash
