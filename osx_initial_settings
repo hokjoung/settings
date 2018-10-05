@@ -1,3 +1,11 @@
+vim ~/.vimrc
+vim ~/.gitconfig
+vim ~/.bashrc
+vim ~/.bash_profile (contains below)
+  if [ -r ~/.bashrc ]; then
+   source ~/.bashrc
+  fi
+
 1. system pref -> accessibility -> trackpad options -> enable dragging (three finger drag)
 2. system pref -> keyboard -> input sources -> select the previous input source = cmd + space
 3. system pref -> keyboard -> spotlight -> show spotlight search = option + space
