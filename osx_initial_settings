@@ -15,6 +15,11 @@
 15. terminal font. terminal -> preferences -> profiles -> text -> font -> Menlo Regular 11pt. (osx yosemite font)
 
 
+intellij
+Navigate > Back		    option + cmd + [
+Navigate > Forward	  option + cmd + ]
+Select next tab	  	  cmd + shift + ]	
+Select previous tab  	cmd + shift + [
 
 
 -apps----
