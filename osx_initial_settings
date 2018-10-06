@@ -38,6 +38,24 @@ rails
 homebrew
 rvm - (https://rvm.io/rvm/install reference(rare case keyserver fails): https://rvm.io/rvm/security)
   brew install gnupg
+history
+    1  rvm
+    2  ruby -v
+    3  gem -v
+    4  gem update --system
+    5  rvm gemset list
+    6  rvm gemset use global
+    7  gem list
+    8  gem update
+    9  echo "gem: --no-document" >> ~/.gemrc
+   10  vim ~/.gemrc
+   11  gem install bundler
+   12  gem install nokogiri
+   13  ruby -v
+   14  rvm use ruby-2.5.1@rails5.2 --create   (naming depends on installed version of ruby and current stable version of rails check them! $ ruby -v and https://rubygems.org/gems/rails)
+   15  gem install rails
+   16  rails -v
+
 
 -apps----
 anaconda-navigator
