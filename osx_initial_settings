@@ -33,6 +33,8 @@ Select previous tab  	cmd + shift + [
 install lombok plugin
 install ideavim plugin
 
+node.js and npm
+install from https://nodejs.org/en/
 
 rails
 homebrew
@@ -54,7 +56,9 @@ history
    13  ruby -v
    14  rvm use ruby-2.5.1@rails5.2 --create   (naming depends on installed version of ruby and current stable version of rails check them! $ ruby -v and https://rubygems.org/gems/rails)
    15  gem install rails
-   16  rails -v
+   16  brew install mysql
+   17  bundle install
+   18  rails -v
 
 
 -apps----
