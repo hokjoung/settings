@@ -84,3 +84,4 @@ wireshark
 
 -tips----
 $ docker run -it ubuntu bash
+to remove all end-of-line in a file. open file with vim - :set binary -> :set noeol
