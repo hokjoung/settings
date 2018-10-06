@@ -24,6 +24,14 @@ vim ~/.bash_profile (contains below)
 16. git -> https://help.github.com/articles/caching-your-github-password-in-git/ (setting osxkeychain as credential to cache github password)
 17. terminal font. terminal -> preferences -> profiles -> text -> font -> Menlo Regular 11pt. (osx yosemite font)
 
+pass
+   1  brew install pass
+   2  pass
+   3  pass init
+   4  gpg —gen-key
+   5  gpg —list-keys
+   6  pass init "{gpg_pub_id}" (ref on how to get pub_id : https://security.stackexchange.com/questions/110139/gnupg-asks-for-a-key-id-when-sharing-my-public-key-what-is-that)
+   7  pass
 
 intellij
 Navigate > Back		    option + cmd + [
