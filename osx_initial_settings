@@ -67,6 +67,7 @@ history
    16  brew install mysql
    17  bundle install
    18  rails -v
+add jbuilder into Gemlist
 
 
 -apps----
