@@ -23,6 +23,7 @@ vim ~/.bash_profile (contains below)
 15. slack -> sign in to multiple workspaces to get rid of top bar / ribbon (from release note : 'If you're signed into more than one team, we've removed the titlebar from the window for a streamlined, high fashion look. We call it: Menumalist.')
 16. git -> https://help.github.com/articles/caching-your-github-password-in-git/ (setting osxkeychain as credential to cache github password)
 17. terminal font. terminal -> preferences -> profiles -> text -> font -> Menlo Regular 11pt. (osx yosemite font)
+18. sys pref -> keyboard -> keyboard -> Modifier Keys -> set Caps Lock to Escape
 
 pass
    1  brew install pass
