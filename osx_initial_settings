@@ -34,6 +34,22 @@ pass
    5  gpg —list-keys
    6  pass init "{gpg_pub_id}" (ref on how to get pub_id : https://security.stackexchange.com/questions/110139/gnupg-asks-for-a-key-id-when-sharing-my-public-key-what-is-that)
    7  pass
+   
+   #import from git (remember to copy gpg keys from old computer to new computer)
+   1  brew install pass
+   2  pass init "hokjoung viva pass"
+   3  pass git init
+   4  pass git remote add origin https://github.com/hokjoung/viva-hokjoung_pass.git
+   5  pass git reset --hard origin/master
+   // make sure gpg id in ~/.password-store/.gpg-id is the imported gpg key
+   
+gpg
+  1 gpg --list-keys
+  2 gpg --list-secret-keys
+  3 gpg --export -a "viva-hokjoung" > public.key
+  4 gpg --export-secret-key -a "viva-hokjoung" > private.key
+  5 gpg --import public.key
+  6 gpg --allow-secret-key-import --import private.key
 
 intellij
 Navigate > Back		    option + cmd + [
