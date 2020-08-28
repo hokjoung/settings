@@ -51,6 +51,12 @@ gpg
   5 gpg --import public.key
   6 gpg --allow-secret-key-import --import private.key
 
+jdk
+  1  brew update
+  2  brew tap adoptopenjdk/openjdk
+  3  brew cask install adoptopenjdk8
+  4  java -version
+
 intellij
 Navigate > Back		    option + cmd + [
 Navigate > Forward	  option + cmd + ]
