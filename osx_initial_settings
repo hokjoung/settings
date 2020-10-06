@@ -1,5 +1,7 @@
 vim ~/.vimrc
 vim ~/.gitconfig
+
+chsh -s /bin/bash //change default shell to bash such that below bash configs are properly applied
 vim ~/.bashrc
 vim ~/.bash_profile (contains below)
   if [ -r ~/.bashrc ]; then
