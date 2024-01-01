@@ -1,15 +1,18 @@
 monitoring
-- server monitoring
+- server monitoring (if k8s, container based)
   - server memory
   - tomcat threads
   - jvm
     - gc
     - threads (async processing)
+  - k8s dashboard to check deployed version and health
 - log viewer
   - traceid based?
   - log collection pipeline (kafka-logstash-es based?)
 - db monitoring
   - db cpu, threads
+  - slow query
+  - query sampling, query log (aws-like)
 - alert system
   - create thresholds
 - heap dump for process kill (unix based - more likely in pod based)
@@ -22,6 +25,11 @@ server access
 db access
   - rw, ro
   - dev, alpha, staging, live, sandbox
+
+dev
+  - intellij
+  - github (merge strategy, code review etc)
+  - testbox?
 
 dw
   - cadence (hourly? daily?)
