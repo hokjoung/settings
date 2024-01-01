@@ -28,6 +28,31 @@ vim ~/.bash_profile (contains below)
 17. terminal font. terminal -> preferences -> profiles -> text -> font -> Menlo Regular 11pt. (osx yosemite font)
 18. sys pref -> keyboard -> keyboard -> Modifier Keys -> set Caps Lock to Escape
 
+jdk
+  1  brew update
+  2  brew tap adoptopenjdk/openjdk
+  3  brew cask install adoptopenjdk8
+  4  java -version
+
+intellij
+Navigate > Back		    option + cmd + [
+Navigate > Forward	  option + cmd + ]
+Select next tab	  	  cmd + shift + ]	
+Select previous tab  	cmd + shift + [
+install lombok plugin
+install ideavim plugin
+
+bookmarks
+
+
+firefox plugins
+- ublock origin
+- privacy badger
+- vimium
+
+youtube disable vid preview
+- settings > Playback and performance > toggle Video previews off
+
 pass
    1  brew install pass
    2  pass
@@ -52,20 +77,6 @@ gpg
   4 gpg --export-secret-key -a "viva-hokjoung" > private.key
   5 gpg --import public.key
   6 gpg --allow-secret-key-import --import private.key
-
-jdk
-  1  brew update
-  2  brew tap adoptopenjdk/openjdk
-  3  brew cask install adoptopenjdk8
-  4  java -version
-
-intellij
-Navigate > Back		    option + cmd + [
-Navigate > Forward	  option + cmd + ]
-Select next tab	  	  cmd + shift + ]	
-Select previous tab  	cmd + shift + [
-install lombok plugin
-install ideavim plugin
 
 node.js and npm
 install from https://nodejs.org/en/
