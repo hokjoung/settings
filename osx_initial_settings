@@ -97,25 +97,25 @@ add jbuilder into Gemlist
 
 
 -apps----
-anaconda-navigator
+datagrip
 deezer
 docker
 firefox
 intellij idea
 kakaotalk
-mysqlworkbench
-parallels desktop
+menubarx
 postman
 pycharm
 rubymine
-sequel pro
 skitch
 slack
+sublime
 text wrangler
 virtualbox
+
+parallels desktop
 vlc
 wireshark
-
 
 -tips----
 $ docker run -it ubuntu bash
