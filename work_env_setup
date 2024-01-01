@@ -1,0 +1,42 @@
+monitoring
+- server monitoring
+  - server memory
+  - tomcat threads
+  - jvm
+    - gc
+    - threads (async processing)
+- log viewer
+  - traceid based?
+  - log collection pipeline (kafka-logstash-es based?)
+- db monitoring
+  - db cpu, threads
+- alert system
+  - create thresholds
+- heap dump for process kill (unix based - more likely in pod based)
+  - where to get heap dumps
+
+server access
+  - local machine debugging (ps, htop etc)
+  - if pod based (ui to access pod terminal)
+
+db access
+  - rw, ro
+  - dev, alpha, staging, live, sandbox
+
+dw
+  - cadence (hourly? daily?)
+  - how to add new data pipelines (jenkins, cdc, spark?)
+  - how to create big query jobs
+  - currently running queries viewer (admin)
+
+ci/cd
+  - canary
+
+project management
+  - jira?
+
+documentation
+  - notion? confluence?
+
+communication
+  - slack? teams?
