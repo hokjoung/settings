@@ -15,18 +15,28 @@ vim ~/.bash_profile (contains below)
 4. terminal -> preferences -> profiles tab -> window tab -> window size : col=100, row=30
 5. terminal -> preferences -> profiles tab -> shell tab -> when the shell exits : close the window, ask before closing : only if there are processes other than the login shell and :
 6. (if prev commands in terminal are wrapped with square brackets) terminal -> edit -> marks -> Automatically Mark Prompt Lines -> turn off (cmd line version : defaults write com.apple.Terminal AutoMarkPromptLines -bool NO)
-7. automator -> new services -> services receives : no input, in : any application -> drag 'Run Shell Script' -> Shell : /bin/bash, pass input : to stdin, pmset displaysleepnow -> save name as 'Lock Screen' -> sys pref -> keyboard -> shortcuts tab -> Services -> scroll all the way down -> General > Lock Screen -> set shortcut to 'control-command-]'
-8. sys pref -> keyboard -> shortcuts tab -> mission control -> set short cut to 'control-g'
-9. terminal -> write following command -> 'defaults write -g InitialKeyRepeat 25'
-10. terminal -> write following command -> 'defaults write -g KeyRepeat 2'
-11. sys pref -> keyboard -> key repeat : off(0) slow | | | | | fast(7) -> set to fast
-12. sys pref -> keyboard -> delay until repeat : long(0)   |   |   |   |   short(5) -> set to 4
-13. get homebrew
-14. sys pref -> trackpad -> turn off 'Scroll direction: Natural'
-15. slack -> sign in to multiple workspaces to get rid of top bar / ribbon (from release note : 'If you're signed into more than one team, we've removed the titlebar from the window for a streamlined, high fashion look. We call it: Menumalist.')
-16. git -> https://help.github.com/articles/caching-your-github-password-in-git/ (setting osxkeychain as credential to cache github password)
-17. terminal font. terminal -> preferences -> profiles -> text -> font -> Menlo Regular 11pt. (osx yosemite font)
-18. sys pref -> keyboard -> keyboard -> Modifier Keys -> set Caps Lock to Escape
+7. automator -> new QuickAction -> Workflow receives : no input, in : any application -> drag 'Run Shell Script' -> Shell : /bin/bash, pass input : to stdin, pmset displaysleepnow -> save name as 'Lock Screen' -> sys pref -> keyboard -> shortcuts tab -> Services -> scroll all the way down -> General > Lock Screen -> set shortcut to 'control-command-]'
+8. automator -> new QuickAction -> Workflow receives : Automatic(Nothing), in : any application -> drag 'Run AppleScript' -> add below:
+  on run {input, parameters}
+	  tell application "Terminal"
+		  activate
+		  set t to do script "cd ~/Documents/cicada"
+		  do script "vim $(date +'%F_%R')" in t
+	  end tell
+	  return input
+  end run
+-> save name as 'Open Vim' -> sys pref -> keyboard -> shortcuts tab -> Services -> scroll all the way down -> General > Open Vim -> set shortcut to 'control-v'
+9. sys pref -> keyboard -> shortcuts tab -> mission control -> set short cut to 'control-g'
+10. terminal -> write following command -> 'defaults write -g InitialKeyRepeat 25'
+11. terminal -> write following command -> 'defaults write -g KeyRepeat 2'
+12. sys pref -> keyboard -> key repeat : off(0) slow | | | | | fast(7) -> set to fast
+13. sys pref -> keyboard -> delay until repeat : long(0)   |   |   |   |   short(5) -> set to 4
+14. get homebrew
+15. sys pref -> trackpad -> turn off 'Scroll direction: Natural'
+16. slack -> sign in to multiple workspaces to get rid of top bar / ribbon (from release note : 'If you're signed into more than one team, we've removed the titlebar from the window for a streamlined, high fashion look. We call it: Menumalist.')
+17. git -> https://help.github.com/articles/caching-your-github-password-in-git/ (setting osxkeychain as credential to cache github password)
+18. terminal font. terminal -> preferences -> profiles -> text -> font -> Menlo Regular 11pt. (osx yosemite font)
+19. sys pref -> keyboard -> keyboard -> Modifier Keys -> set Caps Lock to Escape
 
 jdk
   1  brew update
