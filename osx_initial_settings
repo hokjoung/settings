@@ -51,6 +51,8 @@ Select next tab	  	  cmd + shift + ]
 Select previous tab  	cmd + shift + [
 install lombok plugin
 install ideavim plugin
+make terminal source bashrc
+	Open Settings > Tools > Terminal > select "/bin/bash" for Shell path > also add -i into shell path so Shell path should be : "/bin/bash -i"
 
 bookmarks
 
