@@ -53,6 +53,27 @@ install ideavim plugin
 make terminal source bashrc
 	Open Settings > Tools > Terminal > select "/bin/bash" for Shell path > also add -i into shell path so Shell path should be : "/bin/bash -i"
 
+vscode
+- add IntelliJ IDEA Keybindings extension
+- add below into settings.json
+  { 
+    ...
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.hover.delay": 500,
+    "workbench.settings.applyToAllProfiles": [
+      "workbench.hover.delay",
+      "workbench.tree.indent"
+    ],
+    "workbench.tree.indent": 25,
+    "workbench.colorCustomizations": {
+      "tree.indentGuidesStroke": "#00ff00"
+    }
+    ...
+  }
+
+
 bookmarks
 
 
