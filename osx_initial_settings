@@ -37,6 +37,10 @@ vim ~/.bash_profile (contains below)
 18. terminal font. terminal -> preferences -> profiles -> text -> font -> Menlo Regular 11pt. (osx yosemite font)
 19. sys pref -> keyboard -> keyboard -> Modifier Keys -> set Caps Lock to Escape
 
+chrome
+1. chrome://flags/ -> tab scrolling -> Enabled - tabs shrink to large width
+2. chrome://flags/ -> tab scrolling button -> Enabled - on both sides of the tabstrip
+
 jdk
   1  brew update
   2  brew tap adoptopenjdk/openjdk
