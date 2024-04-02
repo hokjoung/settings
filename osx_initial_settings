@@ -8,7 +8,7 @@ vim ~/.bash_profile (contains below)
    source ~/.bashrc
   fi
 
-1. system pref -> accessibility -> trackpad options -> enable dragging (three finger drag)
+1. system pref -> search "dragging" -> enable "use trackpad for dragging" -> choose "Three Finger Drag"
 2. system pref -> keyboard -> input sources -> select the previous input source = cmd + space
 3. system pref -> keyboard -> spotlight -> show spotlight search = option + space
 4. terminal -> preferences -> profiles tab -> window tab -> window size : col=100, row=30
@@ -24,7 +24,7 @@ vim ~/.bash_profile (contains below)
 	  end tell
 	  return input
   end run
--> save name as 'Open Vim' -> sys pref -> keyboard -> shortcuts tab -> Services -> scroll all the way down -> General > Open Vim -> set shortcut to 'control-v'
+-> save name as 'Open Vim' -> sys pref -> keyboard -> shortcuts tab -> Services -> scroll all the way down -> General > Open Vim -> set shortcut to 'control-cmd-v'
 9. sys pref -> keyboard -> shortcuts tab -> mission control -> set short cut to 'control-g'
 10. terminal -> write following command -> 'defaults write -g InitialKeyRepeat 25'
 11. terminal -> write following command -> 'defaults write -g KeyRepeat 2'
