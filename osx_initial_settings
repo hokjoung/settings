@@ -37,6 +37,8 @@ vim ~/.bash_profile (contains below)
 18. terminal font. terminal -> preferences -> profiles -> text -> font -> Menlo Regular 11pt. (osx yosemite font)
 19. sys pref -> keyboard -> keyboard -> Modifier Keys -> set Caps Lock to Escape
 20. sys pref -> desktop and dock -> "Click wallpaper to reveal desktop" -> "Only in Stage Manager"
+21. sys pref -> keyboard -> shortcuts -> "App Shortcuts" -> "+" -> Application: "Slack" -> Menu title: "Go->History->Back" -> Keyboard shortcut: "option-cmd-["
+22. sys pref -> keyboard -> shortcuts -> "App Shortcuts" -> "+" -> Application: "Slack" -> Menu title: "Go->History->Forward" -> Keyboard shortcut: "option-cmd-]"
 
 chrome
 1. chrome://flags/ -> tab scrolling -> Enabled - tabs shrink to large width
@@ -57,6 +59,7 @@ install lombok plugin
 install ideavim plugin
 make terminal source bashrc
 	Open Settings > Tools > Terminal > select "/bin/bash" for Shell path > also add -i into shell path so Shell path should be : "/bin/bash -i"
+
 
 vscode
 - add IntelliJ IDEA Keybindings extension
