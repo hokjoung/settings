@@ -7,6 +7,8 @@
     st = status
     br = branch
     hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    hist = log --pretty=format:'%C(blue)%h%C(reset) %C(green)%ad%C(reset) %C(auto)| %s%d [%an]' --date=short
+
 [core]
     editor = vim
 [credential]
