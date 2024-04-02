@@ -36,6 +36,7 @@ vim ~/.bash_profile (contains below)
 17. git -> https://help.github.com/articles/caching-your-github-password-in-git/ (setting osxkeychain as credential to cache github password)
 18. terminal font. terminal -> preferences -> profiles -> text -> font -> Menlo Regular 11pt. (osx yosemite font)
 19. sys pref -> keyboard -> keyboard -> Modifier Keys -> set Caps Lock to Escape
+20. sys pref -> desktop and dock -> "Click wallpaper to reveal desktop" -> "Only in Stage Manager"
 
 chrome
 1. chrome://flags/ -> tab scrolling -> Enabled - tabs shrink to large width
