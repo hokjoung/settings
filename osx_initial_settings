@@ -39,6 +39,7 @@ vim ~/.bash_profile (contains below)
 20. sys pref -> desktop and dock -> "Click wallpaper to reveal desktop" -> "Only in Stage Manager"
 21. sys pref -> keyboard -> shortcuts -> "App Shortcuts" -> "+" -> Application: "Slack" -> Menu title: "Go->History->Back" -> Keyboard shortcut: "option-cmd-["
 22. sys pref -> keyboard -> shortcuts -> "App Shortcuts" -> "+" -> Application: "Slack" -> Menu title: "Go->History->Forward" -> Keyboard shortcut: "option-cmd-]"
+23. terminal -> write following command -> 'defaults write -g ApplePressAndHoldEnabled -bool false'
 
 chrome
 1. chrome://flags/ -> tab scrolling -> Enabled - tabs shrink to large width
